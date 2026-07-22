@@ -1,442 +1,746 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-MX">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>STAMP!DA — Wrap, PPF y personalización premium · Agenda tu cita</title>
-  <meta name="description" content="Dale a tu auto el cambio que todos van a notar. Wrap, protección PPF y personalización premium en CDMX. Elige tu diseño y agenda tu cita en minutos.">
-  <link rel="icon" href="assets/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T53C9TS7');</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager (noscript) -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>
+      STAMP!DA — Wrap, PPF y personalización premium · Agenda tu cita
+    </title>
+    <meta
+      name="description"
+      content="Dale a tu auto el cambio que todos van a notar. Wrap, protección PPF y personalización premium en CDMX. Elige tu diseño y agenda tu cita en minutos."
+    />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-T53C9TS7");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-T53C9TS7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KXHX2PWQXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-KXHX2PWQXX");
+    </script>
+    <script src="./js/tracker.js" defer></script>
+  </head>
+  <body data-page="landing">
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T53C9TS7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXHX2PWQXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-KXHX2PWQXX');
-</script>
-</head>
-<body data-page="landing">
-
-  <!-- ===== HEADER ===== -->
-  <header class="header">
-    <nav class="nav container">
-      <a class="nav__logo" href="#top"><img src="assets/logo-stampida.png" alt="STAMP!DA"></a>
-      <div class="nav__links">
-        <a href="#catalogo">Catálogo</a>
-        <a href="#casos">Servicios</a>
-        <a href="#proceso">Proceso</a>
-        <a href="#testimonios">Reseñas</a>
-        <a href="#ubicaciones">Ubicaciones</a>
-        <a href="#faq">FAQ</a>
-      </div>
-      <a class="btn btn--primary btn--sm" href="#agenda">Agendar cita</a>
-    </nav>
-  </header>
-
- <!-- ===== HERO ===== -->
-<section id="top" class="hero hero--image">
-  <video 
-    class="hero__image" 
-    autoplay 
-    muted 
-    loop 
-    playsinline 
-    preload="auto"
-    aria-label="Auto premium con una mitad en wrap rojo y otra mitad sin wrap">
-    <source src="assets/header_video_redu.mp4" type="video/mp4">
-  </video>
-
-  <div class="hero__overlay hero__overlay--h"></div>
-  <div class="hero__overlay hero__overlay--v"></div>
-
-  <div class="hero__inner">
-    <span class="badge"><span class="badge__dot"></span> WRAP · PPF · PERSONALIZACIÓN — CDMX</span>
-    <h1 class="hero__title">Wrap y PPF para <em>autos premium.</em></h1>
-    <p class="hero__sub hero__sub--strong">Sin talleres. Sin vueltas. Sin complicaciones.</p>
-    <p class="hero__sub hero__sub--secondary">Elige tu acabado, agenda tu cita y recibe tu auto listo en 48 horas. Todo con cotización clara desde el primer día.</p>
-    <div class="cta-row">
-      <a class="btn btn--primary btn--md" href="#agenda">Agendar mi cita →</a>
-      <a class="btn btn--ghost btn--md" href="#catalogo">Ver servicios</a>
-    </div>
-    <div class="stats">
-      <div><div class="stat__n">+500</div><div class="stat__l">autos transformados</div></div>
-      <div><div class="stat__n">48 hrs</div><div class="stat__l">entrega prometida</div></div>
-      <div><div class="stat__n">5.0 ★</div><div class="stat__l">calificación en Google</div></div>
-    </div>
-  </div>
-</section>
-
-  <!-- ===== MARQUEE ===== -->
-  <div class="marquee">
-    <div class="marquee__track">
-      <span>Wrap completo</span><span class="sep">/</span>
-      <span>Cambio de color</span><span class="sep">/</span>
-      <span>PPF transparente</span><span class="sep">/</span>
-      <span>PPF Color Edition</span><span class="sep">/</span>
-      <span>Chrome Delete</span><span class="sep">/</span>
-      <span>Rines y Calipers</span><span class="sep">/</span>
-      <span>Wrap completo</span><span class="sep">/</span>
-      <span>Cambio de color</span><span class="sep">/</span>
-      <span>PPF transparente</span><span class="sep">/</span>
-      <span>PPF Color Edition</span><span class="sep">/</span>
-      <span>Chrome Delete</span><span class="sep">/</span>
-      <span>Rines y Calipers</span><span class="sep">/</span>
-    </div>
-  </div>
-
-  <!-- ===== CATÁLOGO ===== -->
-<section id="catalogo" class="section">
-  <div class="section-head">
-    <span class="eyebrow">Servicios STAMP!DA</span>
-    <h2 class="h2">Personalización y protección. Tú decides.</h2>
-    <p class="lead">Dos formas de transformar y proteger tu auto. Elige el objetivo; nosotros aterrizamos el acabado, la protección y la instalación.</p>
-  </div>
-
-  <div class="cards cards--two">
-    <article class="card card--equal">
-      <div class="card__media">
-        <img src="assets/wrap-acabado.png" alt="Técnicos aplicando wrap rojo satinado a un auto premium" loading="lazy">
-      </div>
-      <div class="card__body card__body--equal">
-        <span class="card__kicker">Wrap</span>
-        <h3 class="card__title">Cambia el look completo</h3>
-        <p class="card__text">Cambio de color o acabado sin repintar. Mate, satinado, brillante o una combinación hecha para tu auto.</p>
-        <div class="card__footer">
-          <span class="card__time">⏱ Entrega en 48 hrs</span>
-          <a class="card__link" href="#agenda">Quiero un wrap →</a>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <nav class="nav container">
+        <a class="nav__logo" href="#top"
+          ><img src="assets/logo-stampida.png" alt="STAMP!DA"
+        /></a>
+        <div class="nav__links">
+          <a href="#catalogo">Catálogo</a>
+          <a href="#casos">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#testimonios">Reseñas</a>
+          <a href="#ubicaciones">Ubicaciones</a>
+          <a href="#faq">FAQ</a>
         </div>
-      </div>
-    </article>
+        <a class="btn btn--primary btn--sm" href="#agenda">Agendar cita</a>
+      </nav>
+    </header>
 
-    <article class="card card--equal">
-      <div class="card__media">
-        <img src="assets/proteccion_3.png" alt="Impacto de piedra para comunicar la protección del PPF" loading="lazy">
-      </div>
-      <div class="card__body card__body--equal">
-        <span class="card__kicker">PPF</span>
-        <h3 class="card__title">Protege lo que más cuidas</h3>
-        <p class="card__text">Protección visible contra impactos y rayones. Antes y después del rayón para entender lo que el PPF evita.</p>
-        <div class="card__footer">
-          <span class="card__time">⏱ Entrega en 48 hrs</span>
-          <a class="card__link" href="#agenda">Quiero PPF →</a>
+    <!-- ===== HERO ===== -->
+    <section id="top" class="hero hero--image">
+      <video
+        class="hero__image"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        aria-label="Auto premium con una mitad en wrap rojo y otra mitad sin wrap"
+      >
+        <source src="assets/header_video_redu.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero__overlay hero__overlay--h"></div>
+      <div class="hero__overlay hero__overlay--v"></div>
+
+      <div class="hero__inner">
+        <span class="badge"
+          ><span class="badge__dot"></span> WRAP · PPF · PERSONALIZACIÓN —
+          CDMX</span
+        >
+        <h1 class="hero__title">Wrap y PPF para <em>autos premium.</em></h1>
+        <p class="hero__sub hero__sub--strong">
+          Sin talleres. Sin vueltas. Sin complicaciones.
+        </p>
+        <p class="hero__sub hero__sub--secondary">
+          Elige tu acabado, agenda tu cita y recibe tu auto listo en 48 horas.
+          Todo con cotización clara desde el primer día.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn--primary btn--md" href="#agenda"
+            >Agendar mi cita →</a
+          >
+          <a class="btn btn--ghost btn--md" href="#catalogo">Ver servicios</a>
         </div>
-      </div>
-    </article>
-  </div>
-</section>
-
-  <!-- ===== CASOS DE USO ===== -->
-  <section id="casos" class="section section--tight">
-    <div class="section-head">
-      <span class="eyebrow">¿Qué le quieres hacer?</span>
-      <h2 class="h2">¿Qué quieres lograr con tu auto?</h2>
-    </div>
-    <div class="uses">
-      <article class="use">
-        <b class="use__n">01</b>
-        <h3 class="use__title">Quiero que mi auto se vea diferente</h3>
-        <p class="use__text">Cambia el color, el acabado o la presencia de tu auto sin repintarlo.</p>
-      </article>
-      <article class="use">
-        <b class="use__n">02</b>
-        <h3 class="use__title">Protege tu inversión desde el primer día</h3>
-        <p class="use__text">Evita que piedras, rayones y el uso diario marquen la pintura nueva.</p>
-      </article>
-      <article class="use">
-        <b class="use__n">03</b>
-        <h3 class="use__title">El toque final que cambia todo</h3>
-        <p class="use__text">Un acabado que hace que tu auto se vea distinto desde cualquier ángulo.</p>
-      </article>
-      <article class="use">
-        <b class="use__n">04</b>
-        <h3 class="use__title">Personalización para empresas</h3>
-        <p class="use__text">Rotulación, branding vehicular y flotillas con una ejecución clara para tu equipo.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- ===== ANTES Y DESPUÉS ===== -->
-  <section id="proceso" class="showcase">
-    <div class="section-head container">
-      <span class="eyebrow">Antes y después</span>
-      <h2 class="h2">El proceso también se nota.</h2>
-      <p class="lead">Acabados reales, cambios visibles y detalles que hacen que el resultado se vea desde lejos.</p>
-    </div>
-    <div class="showcase__shell container">
-      <div class="showcase__viewport" id="showcaseViewport">
-        <article class="showcase__slide is-active">
-          <img src="assets/audi-azul.jpg" alt="Audi azul con wrap terminado" loading="lazy">
-          <div class="showcase__caption"><span>01</span><strong>Wrap que cambia toda la presencia.</strong></div>
-        </article>
-        <article class="showcase__slide">
-          <video muted loop playsinline preload="metadata" poster="assets/tesla-color.jpg">
-            <source src="assets/video_antes_despues_H.mp4" type="video/mp4">
-          </video>
-          <div class="showcase__caption"><span>02</span><strong>Antes, durante y después del cambio.</strong></div>
-        </article>
-        <article class="showcase__slide">
-          <img src="assets/tesla-color.jpg" alt="Tesla con acabado de color iridiscente" loading="lazy">
-          <div class="showcase__caption"><span>03</span><strong>Acabados que cambian con la luz.</strong></div>
-        </article>
-        <article class="showcase__slide">
-          <img src="assets/cybertruck-negra.jpg" alt="Cybertruck negro con acabado personalizado" loading="lazy">
-          <div class="showcase__caption"><span>04</span><strong>Un look que no pasa desapercibido.</strong></div>
-        </article>
-      </div>
-      <div class="showcase__controls">
-        <button type="button" class="showcase__arrow" id="showcasePrev" aria-label="Ver slide anterior">←</button>
-        <div class="showcase__dots" id="showcaseDots" aria-label="Seleccionar slide"></div>
-        <button type="button" class="showcase__arrow" id="showcaseNext" aria-label="Ver siguiente slide">→</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== COMPARATIVA ===== -->
-  <section class="section section--tight">
-    <div class="compare">
-      <div class="compare__col">
-        <span class="compare__kicker">Taller tradicional</span>
-        <h3 class="compare__title">“Cotiza como puedas”</h3>
-        <ul class="compare__list">
-          <li>Mil mensajes y nadie te contesta a tiempo.</li>
-          <li>Precios que cambian según quién pregunte.</li>
-          <li>Entrega en tiempos indefinidos.</li>
-          <li>Citas que se cancelan solas.</li>
-        </ul>
-      </div>
-      <div class="compare__col compare__col--win">
-        <span class="compare__kicker">Con STAMP!DA</span>
-        <h3 class="compare__title">Tu diseño, tu cita, tu auto listo.</h3>
-        <ul class="compare__list">
-          <li>Agendas en línea en menos de 1 minuto.</li>
-          <li>Ves tu diseño claro antes de empezar.</li>
-          <li>Materiales premium con garantía.</li>
-          <li>Entrega en 48 horas.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== TESTIMONIOS ===== -->
-  <section id="testimonios" class="reviews-sec">
-    <div class="container">
-      <div class="section-head" style="max-width:820px">
-        <span class="eyebrow">Reseñas en Google</span>
-        <h2 class="h2">Lo que dicen quienes ya lo hicieron.</h2>
-        <div class="rating">
-          <div class="rating__chip">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
-            <span class="rating__num">5.0</span>
-            <span class="stars">★★★★★</span>
-          </div>
-          <span class="lead" style="margin:0">Calificación general de STAMP!DA en Google</span>
-        </div>
-      </div>
-    </div>
-    <div class="reviews-mask">
-      <div class="reviews__track" id="reviewsTrack"></div>
-    </div>
-    <div class="container">
-      <div class="backers">
-        <span class="backers__label">Respaldados por</span>
-        <div class="backer backer--featured">
-          <img src="https://stampida.app/wp-content/uploads/2022/10/3-768x768.jpg" alt="Marcus Dantus" loading="lazy">
+        <div class="stats">
           <div>
-            <strong>Marcus Dantus</strong>
-            <span>Inversionista · Shark Tank México</span>
-            <p class="backer__quote">"Un modelo que escala y resultados que hablan solos."</p>
+            <div class="stat__n">+500</div>
+            <div class="stat__l">autos transformados</div>
+          </div>
+          <div>
+            <div class="stat__n">48 hrs</div>
+            <div class="stat__l">entrega prometida</div>
+          </div>
+          <div>
+            <div class="stat__n">5.0 ★</div>
+            <div class="stat__l">calificación en Google</div>
           </div>
         </div>
-        <div class="backer">
-          <img src="https://stampida.app/wp-content/uploads/2022/10/2-1.jpg" alt="Arody" loading="lazy">
-          <div><strong>Arody Strategia</strong><span>Socio · Arody Enterprises</span></div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee">
+      <div class="marquee__track">
+        <span>Wrap completo</span><span class="sep">/</span>
+        <span>Cambio de color</span><span class="sep">/</span>
+        <span>PPF transparente</span><span class="sep">/</span>
+        <span>PPF Color Edition</span><span class="sep">/</span>
+        <span>Chrome Delete</span><span class="sep">/</span>
+        <span>Rines y Calipers</span><span class="sep">/</span>
+        <span>Wrap completo</span><span class="sep">/</span>
+        <span>Cambio de color</span><span class="sep">/</span>
+        <span>PPF transparente</span><span class="sep">/</span>
+        <span>PPF Color Edition</span><span class="sep">/</span>
+        <span>Chrome Delete</span><span class="sep">/</span>
+        <span>Rines y Calipers</span><span class="sep">/</span>
+      </div>
+    </div>
+
+    <!-- ===== CATÁLOGO ===== -->
+    <section id="catalogo" class="section">
+      <div class="section-head">
+        <span class="eyebrow">Servicios STAMP!DA</span>
+        <h2 class="h2">Personalización y protección. Tú decides.</h2>
+        <p class="lead">
+          Dos formas de transformar y proteger tu auto. Elige el objetivo;
+          nosotros aterrizamos el acabado, la protección y la instalación.
+        </p>
+      </div>
+
+      <div class="cards cards--two">
+        <article class="card card--equal">
+          <div class="card__media">
+            <img
+              src="assets/wrap-acabado.png"
+              alt="Técnicos aplicando wrap rojo satinado a un auto premium"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__body card__body--equal">
+            <span class="card__kicker">Wrap</span>
+            <h3 class="card__title">Cambia el look completo</h3>
+            <p class="card__text">
+              Cambio de color o acabado sin repintar. Mate, satinado, brillante
+              o una combinación hecha para tu auto.
+            </p>
+            <div class="card__footer">
+              <span class="card__time">⏱ Entrega en 48 hrs</span>
+              <a class="card__link" href="#agenda">Quiero un wrap →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--equal">
+          <div class="card__media">
+            <img
+              src="assets/proteccion_3.png"
+              alt="Impacto de piedra para comunicar la protección del PPF"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__body card__body--equal">
+            <span class="card__kicker">PPF</span>
+            <h3 class="card__title">Protege lo que más cuidas</h3>
+            <p class="card__text">
+              Protección visible contra impactos y rayones. Antes y después del
+              rayón para entender lo que el PPF evita.
+            </p>
+            <div class="card__footer">
+              <span class="card__time">⏱ Entrega en 48 hrs</span>
+              <a class="card__link" href="#agenda">Quiero PPF →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CASOS DE USO ===== -->
+    <section id="casos" class="section section--tight">
+      <div class="section-head">
+        <span class="eyebrow">¿Qué le quieres hacer?</span>
+        <h2 class="h2">¿Qué quieres lograr con tu auto?</h2>
+      </div>
+      <div class="uses">
+        <article class="use">
+          <b class="use__n">01</b>
+          <h3 class="use__title">Quiero que mi auto se vea diferente</h3>
+          <p class="use__text">
+            Cambia el color, el acabado o la presencia de tu auto sin
+            repintarlo.
+          </p>
+        </article>
+        <article class="use">
+          <b class="use__n">02</b>
+          <h3 class="use__title">Protege tu inversión desde el primer día</h3>
+          <p class="use__text">
+            Evita que piedras, rayones y el uso diario marquen la pintura nueva.
+          </p>
+        </article>
+        <article class="use">
+          <b class="use__n">03</b>
+          <h3 class="use__title">El toque final que cambia todo</h3>
+          <p class="use__text">
+            Un acabado que hace que tu auto se vea distinto desde cualquier
+            ángulo.
+          </p>
+        </article>
+        <article class="use">
+          <b class="use__n">04</b>
+          <h3 class="use__title">Personalización para empresas</h3>
+          <p class="use__text">
+            Rotulación, branding vehicular y flotillas con una ejecución clara
+            para tu equipo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== ANTES Y DESPUÉS ===== -->
+    <section id="proceso" class="showcase">
+      <div class="section-head container">
+        <span class="eyebrow">Antes y después</span>
+        <h2 class="h2">El proceso también se nota.</h2>
+        <p class="lead">
+          Acabados reales, cambios visibles y detalles que hacen que el
+          resultado se vea desde lejos.
+        </p>
+      </div>
+      <div class="showcase__shell container">
+        <div class="showcase__viewport" id="showcaseViewport">
+          <article class="showcase__slide is-active">
+            <img
+              src="assets/audi-azul.jpg"
+              alt="Audi azul con wrap terminado"
+              loading="lazy"
+            />
+            <div class="showcase__caption">
+              <span>01</span><strong>Wrap que cambia toda la presencia.</strong>
+            </div>
+          </article>
+          <article class="showcase__slide">
+            <video
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="assets/tesla-color.jpg"
+            >
+              <source src="assets/video_antes_despues_H.mp4" type="video/mp4" />
+            </video>
+            <div class="showcase__caption">
+              <span>02</span
+              ><strong>Antes, durante y después del cambio.</strong>
+            </div>
+          </article>
+          <article class="showcase__slide">
+            <img
+              src="assets/tesla-color.jpg"
+              alt="Tesla con acabado de color iridiscente"
+              loading="lazy"
+            />
+            <div class="showcase__caption">
+              <span>03</span><strong>Acabados que cambian con la luz.</strong>
+            </div>
+          </article>
+          <article class="showcase__slide">
+            <img
+              src="assets/cybertruck-negra.jpg"
+              alt="Cybertruck negro con acabado personalizado"
+              loading="lazy"
+            />
+            <div class="showcase__caption">
+              <span>04</span><strong>Un look que no pasa desapercibido.</strong>
+            </div>
+          </article>
+        </div>
+        <div class="showcase__controls">
+          <button
+            type="button"
+            class="showcase__arrow"
+            id="showcasePrev"
+            aria-label="Ver slide anterior"
+          >
+            ←
+          </button>
+          <div
+            class="showcase__dots"
+            id="showcaseDots"
+            aria-label="Seleccionar slide"
+          ></div>
+          <button
+            type="button"
+            class="showcase__arrow"
+            id="showcaseNext"
+            aria-label="Ver siguiente slide"
+          >
+            →
+          </button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== UBICACIONES ===== -->
-  <section id="ubicaciones" class="section">
-    <div class="section-head">
-      <span class="eyebrow">Estamos cerca de ti</span>
-      <h2 class="h2">Elige tu zona y agenda ahí mismo.</h2>
-      <p class="lead">Centros STAMP!DA en las mejores zonas de la Ciudad de México y Toluca. Tú eliges dónde te queda mejor.</p>
-    </div>
-    <div class="loc-btns" id="locBtns"></div>
-    <div class="loc-panel">
-      <div class="loc-panel__info">
-        <strong class="loc-panel__name" id="locName">Santa Fe</strong>
-        <p>Selecciona la ubicación que mejor te quede. Tu cita se confirma al agendar en el formulario.</p>
-        <a class="btn btn--primary btn--sm" href="#agenda" style="width:max-content">Agendar en esta zona</a>
-      </div>
-      <iframe class="map" id="locMap" title="Mapa STAMP!DA" loading="lazy"></iframe>
-    </div>
-  </section>
-
-  <!-- ===== FAQ (antes del formulario) ===== -->
-  <section id="faq" class="faq">
-    <div class="faq__head">
-      <span class="eyebrow">FAQ</span>
-      <h2 class="h2">¿Tienes dudas?</h2>
-    </div>
-    <div class="faq__list">
-      <details class="faq__item">
-        <summary class="faq__q">¿La cita tiene algún costo?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">No. Agendar es gratis y sin compromiso. En tu cita revisamos tu auto, aterrizamos el diseño y te damos una cotización clara.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__q">¿En cuánto tiempo queda mi auto?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">Depende del servicio: los wraps quedan listos en <strong>48 horas</strong> y los proyectos de PPF en <strong>72 horas</strong>. Al confirmar tu cita te damos la fecha exacta de entrega para que planees sin sorpresas.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__q">¿El wrap daña la pintura original?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">No. El wrap protege la pintura de fábrica y es 100% reversible: cuando lo retiramos, tu auto queda como estaba.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__q">¿Puedo agendar si quiero PPF?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">Claro. Manejamos PPF transparente y PPF Color Edition. Solo selecciónalo en el formulario y lo revisamos en tu cita.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__q">¿Puedo llevar mi propia idea o referencia?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">Sí. En el formulario puedes describir color, acabado o mostrarnos una referencia. Te ayudamos a llevarla a un resultado real.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__q">¿Qué pasa después de enviar el formulario?<span class="faq__plus">+</span></summary>
-        <p class="faq__a">Pasas a elegir tu horario en el calendario y nuestro equipo te confirma por WhatsApp el mismo día. Así de fácil.</p>
-      </details>
-    </div>
-  </section>
-
-  <!-- ===== FORMULARIO / AGENDA ===== -->
-  <section id="agenda" class="agenda">
-    <div class="agenda__glow"></div>
-    <div class="agenda__grid">
-      <div class="agenda__copy">
-        <span class="eyebrow">Agenda tu cita</span>
-        <h2 class="h2">Tu auto nuevo empieza aquí.</h2>
-        <p>Cuéntanos qué quieres hacer y elige tu horario. Sin compromiso, sin letras chiquitas: solo el primer paso para transformar tu auto.</p>
-        <div class="chips">
-          <span class="chip">✓ Respuesta el mismo día</span>
-          <span class="chip">✓ Cotización sin costo</span>
-          <span class="chip">✓ Eliges tu zona</span>
+    <!-- ===== COMPARATIVA ===== -->
+    <section class="section section--tight">
+      <div class="compare">
+        <div class="compare__col">
+          <span class="compare__kicker">Taller tradicional</span>
+          <h3 class="compare__title">“Cotiza como puedas”</h3>
+          <ul class="compare__list">
+            <li>Mil mensajes y nadie te contesta a tiempo.</li>
+            <li>Precios que cambian según quién pregunte.</li>
+            <li>Entrega en tiempos indefinidos.</li>
+            <li>Citas que se cancelan solas.</li>
+          </ul>
+        </div>
+        <div class="compare__col compare__col--win">
+          <span class="compare__kicker">Con STAMP!DA</span>
+          <h3 class="compare__title">Tu diseño, tu cita, tu auto listo.</h3>
+          <ul class="compare__list">
+            <li>Agendas en línea en menos de 1 minuto.</li>
+            <li>Ves tu diseño claro antes de empezar.</li>
+            <li>Materiales premium con garantía.</li>
+            <li>Entrega en 48 horas.</li>
+          </ul>
         </div>
       </div>
+    </section>
 
-      <form class="form" id="leadForm" novalidate>
-        <div class="form__head">
-          <h3>Agendar mi cita</h3>
-          <span class="form__time">1 minuto</span>
+    <!-- ===== TESTIMONIOS ===== -->
+    <section id="testimonios" class="reviews-sec">
+      <div class="container">
+        <div class="section-head" style="max-width: 820px">
+          <span class="eyebrow">Reseñas en Google</span>
+          <h2 class="h2">Lo que dicen quienes ya lo hicieron.</h2>
+          <div class="rating">
+            <div class="rating__chip">
+              <img
+                src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                alt="Google"
+              />
+              <span class="rating__num">5.0</span>
+              <span class="stars">★★★★★</span>
+            </div>
+            <span class="lead" style="margin: 0"
+              >Calificación general de STAMP!DA en Google</span
+            >
+          </div>
         </div>
-        <label class="field">Nombre completo
-          <input class="input" required name="nombre" autocomplete="name" placeholder="Tu nombre">
-        </label>
-        <label class="field">WhatsApp
-          <input class="input" required name="whatsapp" inputmode="tel" autocomplete="tel" placeholder="55 0000 0000">
-        </label>
-        <label class="field">Email
-          <input class="input" type="email" name="email" autocomplete="email" placeholder="tucorreo@ejemplo.com">
-        </label>
-        <label class="field">Modelo de auto
-          <input class="input" required name="modelo" placeholder="Marca, modelo y año">
-        </label>
-        <label class="field">¿Qué quieres hacer?
-          <select class="select" required name="servicio">
-            <option value="">Selecciona una opción</option>
-            <option>Wrap completo</option>
-            <option>Cambio de color</option>
-            <option>PPF transparente</option>
-            <option>PPF Color Edition</option>
-            <option>Chrome delete / Xtras</option>
-            <option>Proyecto de empresa / flotilla</option>
-          </select>
-        </label>
-        <label class="field">Zona preferida
-          <select class="select" required name="ubicacion">
-            <option value="">Selecciona una zona</option>
-            <option>Santa Fe</option>
-            <option>Polanco</option>
-            <option>Lomas de Chapultepec</option>
-            <option>Reforma</option>
-            <option>Insurgentes Sur</option>
-            <option>Mitikah</option>
-            <option>Artz Pedregal</option>
-            <option>Garage Toluca</option>
-          </select>
-        </label>
-        <label class="field">Cuéntanos tu idea (opcional)
-          <textarea class="textarea" name="idea" rows="3" placeholder="Ej. cambiar a negro mate, proteger pintura nueva, combinar PPF + wrap, branding para mi negocio"></textarea>
-        </label>
-        <label class="check">
-          <input type="checkbox" required name="privacidad">
-          Acepto ser contactado por STAMP!DA y el tratamiento de mis datos según el aviso de privacidad.
-        </label>
-        <button class="btn btn--primary btn--md btn--block" type="submit">Agendar mi cita →</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="footer__grid">
-      <div class="footer__col">
-        <img src="assets/logo-stampida.png" alt="STAMP!DA">
-        <p>Wrap, PPF, personalización y protección automotriz premium en CDMX. Tu auto, como siempre lo imaginaste.</p>
-        <small>© STAMP!DA. Todos los derechos reservados.</small>
       </div>
-      <div class="footer__col">
-        <strong>STAMP!DA</strong>
-        <a href="https://stampida.app/" target="_blank" rel="noopener">Web</a>
-        <a href="https://www.stampida.mx" target="_blank" rel="noopener">Catálogo</a>
-        <a href="https://stampida.app/?page_id=3" target="_blank" rel="noopener">Aviso de privacidad</a>
+      <div class="reviews-mask">
+        <div class="reviews__track" id="reviewsTrack"></div>
       </div>
-      <div class="footer__col">
-        <strong>Redes</strong>
-        <a href="https://www.instagram.com/stampidamx" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://www.tiktok.com/@stampidamx" target="_blank" rel="noopener">TikTok</a>
-        <a href="https://facebook.com/stampidaapp" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://wa.me/525551720748?text=Quiero%20agendar" target="_blank" rel="noopener">WhatsApp</a>
+      <div class="container">
+        <div class="backers">
+          <span class="backers__label">Respaldados por</span>
+          <div class="backer backer--featured">
+            <img
+              src="https://stampida.app/wp-content/uploads/2022/10/3-768x768.jpg"
+              alt="Marcus Dantus"
+              loading="lazy"
+            />
+            <div>
+              <strong>Marcus Dantus</strong>
+              <span>Inversionista · Shark Tank México</span>
+              <p class="backer__quote">
+                "Un modelo que escala y resultados que hablan solos."
+              </p>
+            </div>
+          </div>
+          <div class="backer">
+            <img
+              src="https://stampida.app/wp-content/uploads/2022/10/2-1.jpg"
+              alt="Arody"
+              loading="lazy"
+            />
+            <div>
+              <strong>Arody Strategia</strong
+              ><span>Socio · Arody Enterprises</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer__col">
-        <strong>Descarga la app</strong>
-        <a href="https://ios.stampida.app" target="_blank" rel="noopener"><img class="store-badge" src="assets/app-store-badge.svg" alt="Descárgalo en el App Store"></a>
-        <a href="https://play.stampida.app" target="_blank" rel="noopener"><img class="store-badge" src="assets/google-play-badge.svg" alt="Disponible en Google Play"></a>
+    </section>
+
+    <!-- ===== UBICACIONES ===== -->
+    <section id="ubicaciones" class="section">
+      <div class="section-head">
+        <span class="eyebrow">Estamos cerca de ti</span>
+        <h2 class="h2">Elige tu zona y agenda ahí mismo.</h2>
+        <p class="lead">
+          Centros STAMP!DA en las mejores zonas de la Ciudad de México y Toluca.
+          Tú eliges dónde te queda mejor.
+        </p>
       </div>
-    </div>
-  </footer>
+      <div class="loc-btns" id="locBtns"></div>
+      <div class="loc-panel">
+        <div class="loc-panel__info">
+          <strong class="loc-panel__name" id="locName">Santa Fe</strong>
+          <p>
+            Selecciona la ubicación que mejor te quede. Tu cita se confirma al
+            agendar en el formulario.
+          </p>
+          <a
+            class="btn btn--primary btn--sm"
+            href="#agenda"
+            style="width: max-content"
+            >Agendar en esta zona</a
+          >
+        </div>
+        <iframe
+          class="map"
+          id="locMap"
+          title="Mapa STAMP!DA"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
 
-  <script src="js/script.js"></script>
+    <!-- ===== FAQ (antes del formulario) ===== -->
+    <section id="faq" class="faq">
+      <div class="faq__head">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="h2">¿Tienes dudas?</h2>
+      </div>
+      <div class="faq__list">
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿La cita tiene algún costo?<span class="faq__plus">+</span>
+          </summary>
+          <p class="faq__a">
+            No. Agendar es gratis y sin compromiso. En tu cita revisamos tu
+            auto, aterrizamos el diseño y te damos una cotización clara.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿En cuánto tiempo queda mi auto?<span class="faq__plus">+</span>
+          </summary>
+          <p class="faq__a">
+            Depende del servicio: los wraps quedan listos en
+            <strong>48 horas</strong> y los proyectos de PPF en
+            <strong>72 horas</strong>. Al confirmar tu cita te damos la fecha
+            exacta de entrega para que planees sin sorpresas.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿El wrap daña la pintura original?<span class="faq__plus">+</span>
+          </summary>
+          <p class="faq__a">
+            No. El wrap protege la pintura de fábrica y es 100% reversible:
+            cuando lo retiramos, tu auto queda como estaba.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿Puedo agendar si quiero PPF?<span class="faq__plus">+</span>
+          </summary>
+          <p class="faq__a">
+            Claro. Manejamos PPF transparente y PPF Color Edition. Solo
+            selecciónalo en el formulario y lo revisamos en tu cita.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿Puedo llevar mi propia idea o referencia?<span class="faq__plus"
+              >+</span
+            >
+          </summary>
+          <p class="faq__a">
+            Sí. En el formulario puedes describir color, acabado o mostrarnos
+            una referencia. Te ayudamos a llevarla a un resultado real.
+          </p>
+        </details>
+        <details class="faq__item">
+          <summary class="faq__q">
+            ¿Qué pasa después de enviar el formulario?<span class="faq__plus"
+              >+</span
+            >
+          </summary>
+          <p class="faq__a">
+            Pasas a elegir tu horario en el calendario y nuestro equipo te
+            confirma por WhatsApp el mismo día. Así de fácil.
+          </p>
+        </details>
+      </div>
+    </section>
 
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2272386056910585');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2272386056910585&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <!-- ===== FORMULARIO / AGENDA ===== -->
+    <section id="agenda" class="agenda">
+      <div class="agenda__glow"></div>
+      <div class="agenda__grid">
+        <div class="agenda__copy">
+          <span class="eyebrow">Agenda tu cita</span>
+          <h2 class="h2">Tu auto nuevo empieza aquí.</h2>
+          <p>
+            Cuéntanos qué quieres hacer y elige tu horario. Sin compromiso, sin
+            letras chiquitas: solo el primer paso para transformar tu auto.
+          </p>
+          <div class="chips">
+            <span class="chip">✓ Respuesta el mismo día</span>
+            <span class="chip">✓ Cotización sin costo</span>
+            <span class="chip">✓ Eliges tu zona</span>
+          </div>
+        </div>
 
-</body>
+        <form
+          class="form lead-form"
+          id="leadForm"
+          novalidate=""
+          data-lp-form-id="hero"
+        >
+          <div class="form__head">
+            <h3>Agendar mi cita</h3>
+            <span class="form__time">1 minuto</span>
+          </div>
+          <label class="field"
+            >Nombre completo
+            <input
+              class="input"
+              required=""
+              name="nombre"
+              autocomplete="name"
+              placeholder="Tu nombre"
+            />
+          </label>
+          <label class="field"
+            >WhatsApp
+            <input
+              class="input"
+              required=""
+              name="whatsapp"
+              inputmode="tel"
+              autocomplete="tel"
+              placeholder="55 0000 0000"
+            />
+          </label>
+          <label class="field"
+            >Email
+            <input
+              class="input"
+              type="email"
+              name="email"
+              autocomplete="email"
+              placeholder="tucorreo@ejemplo.com"
+            />
+          </label>
+          <label class="field"
+            >Modelo de auto
+            <input
+              class="input"
+              required=""
+              name="modelo"
+              placeholder="Marca, modelo y año"
+            />
+          </label>
+          <label class="field"
+            >¿Qué quieres hacer?
+            <select class="select" required="" name="servicio">
+              <option value="">Selecciona una opción</option>
+              <option>Wrap completo</option>
+              <option>Cambio de color</option>
+              <option>PPF transparente</option>
+              <option>PPF Color Edition</option>
+              <option>Chrome delete / Xtras</option>
+              <option>Proyecto de empresa / flotilla</option>
+            </select>
+          </label>
+          <label class="field"
+            >Zona preferida
+            <select class="select" required="" name="ubicacion">
+              <option value="">Selecciona una zona</option>
+              <option>Santa Fe</option>
+              <option>Polanco</option>
+              <option>Lomas de Chapultepec</option>
+              <option>Reforma</option>
+              <option>Insurgentes Sur</option>
+              <option>Mitikah</option>
+              <option>Artz Pedregal</option>
+              <option>Garage Toluca</option>
+            </select>
+          </label>
+          <label class="field"
+            >Cuéntanos tu idea (opcional)
+            <textarea
+              class="textarea"
+              name="idea"
+              rows="3"
+              placeholder="Ej. cambiar a negro mate, proteger pintura nueva, combinar PPF + wrap, branding para mi negocio"
+            >
+            </textarea>
+          </label>
+          <label class="check">
+            <input type="checkbox" required="" name="privacidad" />
+            Acepto ser contactado por STAMP!DA y el tratamiento de mis datos
+            según el aviso de privacidad.
+          </label>
+          <button class="btn btn--primary btn--md btn--block" type="submit">
+            Agendar mi cita →
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <img src="assets/logo-stampida.png" alt="STAMP!DA" />
+          <p>
+            Wrap, PPF, personalización y protección automotriz premium en CDMX.
+            Tu auto, como siempre lo imaginaste.
+          </p>
+          <small>© STAMP!DA. Todos los derechos reservados.</small>
+        </div>
+        <div class="footer__col">
+          <strong>STAMP!DA</strong>
+          <a href="https://stampida.app/" target="_blank" rel="noopener">Web</a>
+          <a href="https://www.stampida.mx" target="_blank" rel="noopener"
+            >Catálogo</a
+          >
+          <a
+            href="https://stampida.app/?page_id=3"
+            target="_blank"
+            rel="noopener"
+            >Aviso de privacidad</a
+          >
+        </div>
+        <div class="footer__col">
+          <strong>Redes</strong>
+          <a
+            href="https://www.instagram.com/stampidamx"
+            target="_blank"
+            rel="noopener"
+            >Instagram</a
+          >
+          <a
+            href="https://www.tiktok.com/@stampidamx"
+            target="_blank"
+            rel="noopener"
+            >TikTok</a
+          >
+          <a
+            href="https://facebook.com/stampidaapp"
+            target="_blank"
+            rel="noopener"
+            >Facebook</a
+          >
+          <a
+            href="https://wa.me/525551720748?text=Quiero%20agendar"
+            target="_blank"
+            rel="noopener"
+            >WhatsApp</a
+          >
+        </div>
+        <div class="footer__col">
+          <strong>Descarga la app</strong>
+          <a href="https://ios.stampida.app" target="_blank" rel="noopener"
+            ><img
+              class="store-badge"
+              src="assets/app-store-badge.svg"
+              alt="Descárgalo en el App Store"
+          /></a>
+          <a href="https://play.stampida.app" target="_blank" rel="noopener"
+            ><img
+              class="store-badge"
+              src="assets/google-play-badge.svg"
+              alt="Disponible en Google Play"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+      fbq("init", "2272386056910585");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=2272386056910585&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </body>
 </html>
